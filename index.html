@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100;1,200;1,400;1,700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto Conhecimento ao Alcance</title>
+    <script src="./menu.js" defer></script>
+    <script src="./enviar.js" defer></script>
+    <script src="./texto.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="interface">
+        <div class="logo">
+          <a href="./index.html"><img src="./logo.png" alt="Logo" /></a>
+        </div>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#header">inicio</a></li>
+            <li><a href="#especialidades">Caracteristicas</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#artigos">Manual</a></li>
+          </ul>
+        </nav>
+        <div class="btn-contato">
+          <a href="./Projeto_GM.zip" download="Projeto_GM.zip"
+            ><button>Donwload</button></a
+          >
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar"><i class="bi bi-x-lg"></i></div>
+          <nav>
+            <ul>
+              <li><a href="#header">inicio</a></li>
+              <li><a href="#especialidades">Caracteristicas</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#artigos">Manual</a></li>
+              <li>
+                <a href="./Projeto_GM.zip" download="Projeto_GM.zip"
+                  >Download</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+      </div>
+    </header>
+    <main>
+      <section class="topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1 class="digitando">
+                Olá! Bem vindo ao Conhecimento ao Alcance
+              </h1>
+              <span>.</span>
+              <p>
+                Estamos felizes em recebê-lo em nosso site. Aqui, você
+                encontrará um aplicativo de cadastramento desenvolvido em C# que
+                pode ser baixado gratuitamente.
+              </p>
+              <div class="btn-contato">
+                <a href="mailto:conhecimentoalcance@gmail.com"
+                  ><button>Entre em Contato</button></a
+                >
+              </div>
+            </div>
+            <div class="img-topo-site">
+              <img src="./banner.png" alt="Foto Do banner" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="especialidades" id="especialidades">
+        <div class="interface">
+          <h2 class="titulo"> <span>Caracteristicas</span></h2>
+          <div class="flex">
+            <div class="especialidades-box">
+              <i class="bi bi-check-square-fill"></i>
+              <h3>Facilidade de uso</h3>
+              <p>
+                O aplicativo é projetado para ser fácil de usar, mesmo para
+                usuários com pouca experiência em informática. A interface é
+                intuitiva e os menus são bem organizados.
+              </p>
+            </div>
+            <div class="especialidades-box">
+              <i class="bi bi-check-square-fill"></i>
+              <h3>Segurança</h3>
+              <p>
+                O aplicativo utiliza criptografia para proteger os dados dos
+                usuários. Isso ajuda a garantir que as informações sejam
+                confidenciais e seguras.
+              </p>
+            </div>
+            <div class="especialidades-box">
+              <i class="bi bi-check-square-fill"></i>
+              <h3>Banco de dados</h3>
+              <p>
+                O aplicativo utiliza um banco de dados para armazenar os dados
+                cadastrados. Isso permite que os dados sejam armazenados de
+                forma segura e eficiente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sobre" id="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img src="./banner.png" alt="Banner" />
+            </div>
+            <div class="txt-sobre">
+              <h2>Bem vindo, <span>Usuário</span></h2>
+              <p>
+                Este aplicativo é uma ferramenta simples e eficaz que pode ser
+                usada para cadastrar clientes, livros ou cursos. Ele é perfeito
+                para empresas, organizações ou indivíduos que precisam manter um
+                registro de informações de seus clientes ou funcionários.
+              </p>
+              <p>
+                Agradecemos sua visita e esperamos que nosso aplicativo seja
+                útil para você. Equipe Conhecimento ao Alcance
+              </p>
+              <div class="btn-social">
+                <a href="https://www.instagram.com" target="_blank"
+                  ><button><i class="bi bi-instagram"></i></button
+                ></a>
+                <a href="https://www.linkedin.com" target="_blank"
+                  ><button><i class="bi bi-linkedin"></i></button
+                ></a>
+                <a href="https://api.whatsapp.com/" target="_blank"
+                  ><button><i class="bi bi-whatsapp"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="artigos">
+        <div class="interface">
+          <h2 class="titulo">Manual do Usuário</h2>
+          <div class="flex">
+            <a href="./manual.pdf" download="manual.pdf">
+              <div
+              class="img-port"
+              style="background-image: url(./imagem.jpg)"
+            >
+              <div class="overlay">Download</div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="./logo.png" alt="logo" />
+            </div>
+            <div class="btn-social">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><button><i class="bi bi-instagram"></i></button
+              ></a>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><button><i class="bi bi-linkedin"></i></button
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=+551398809-0853&text=Ol%C3%A1!"
+                target="_blank"
+                ><button><i class="bi bi-whatsapp"></i></button
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="line-footer borda">
+          <p>
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:conhecimentoalcance@gmail.com"
+              >conhecimentoalcance@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
